@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MHJToDoItem.h"
 
 @interface MHJAddToDoItemViewController : UIViewController
+
+@property MHJToDoItem *toDoItem;
 
 @end
